@@ -1,0 +1,36 @@
+public class Arvore {
+  public static void main(String args[]) {
+    int f= 10;
+    
+      for(int b = 2; b <= 10; b++){
+          
+            for(int d = 10;  d >= b ; d--){
+                
+                if(f == 10){
+                    System.out.print(".");
+                }else{
+             System.out.print(" "); 
+                }
+                f--;
+            }
+            
+            System.out.print("/");
+          
+          for(int c= 2; c <=b ; c++){
+              System.out.print("**");
+                 }
+          
+                System.out.println("\\");
+             if ( b == 10) {
+                for(int t =0;t <4; t++ ){
+                    System.out.println("             ||");
+                }
+          }
+              
+      }
+      for(int g = 0; g < 20; g++){
+                  System.out.print("*");
+              }
+    
+  }
+}
